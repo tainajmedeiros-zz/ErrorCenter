@@ -1,7 +1,7 @@
 version: '3'
 services:
   docker-app:
-    image: errorcenter/spring-boot-docker-app
+    image: error-center-docker
     environment:
       - app.jwtSecret=JWTSuperSecretKey
       - app.jwtExpirationInMs=604800000
