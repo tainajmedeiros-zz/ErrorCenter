@@ -2,6 +2,7 @@ version: '3'
 services:
   docker-app:
     image: error-center-docker
+    build: .
     environment:
       - app.jwtSecret=JWTSuperSecretKey
       - app.jwtExpirationInMs=604800000
